@@ -1,0 +1,276 @@
+<!-- / -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Lavkush Patel - Web Developer & CS Student | AI, ML, Web Dev Projects" />
+    <title>Lavkush Patel | Web Developer</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body class="light-mode">
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button>
+
+    <div class="layout">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-sticky">
+                <div class="logo">Lavkush.</div>
+                <nav class="sidebar-nav">
+                    <a href="#Home" class="active">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="#Projects">Projects</a>
+                    <a href="#Contact">Contact</a>
+                </nav>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/lavkush-patel-089940288/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Lavkush-patel9" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/its_love_writer_l/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Hero -->
+            <section id="Home">
+                <div class="hero">
+                    <div class="hero-img">
+                        <img src="Lp1.jpg" alt="Lavkush Patel">
+                    </div>
+                    <div class="hero-content">
+                        <h1>Hi, I'm <span class="pro">Lavkush Patel</span></h1>
+                        <h2>Web Developer & CS Student</h2>
+                        <p>I'm a final-year Computer Science & Engineering student passionate about Web Development, AI, and Machine Learning.</p>
+                        <div class="btn">
+                            <button onclick="window.open('cv.pdf', '_blank')">Download CV</button>
+                            <button class="btn-outline" onclick="document.getElementById('Contact').scrollIntoView()">Contact Me</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- About -->
+            <section id="About">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <p>
+                        I’m a final-year Computer Science & Engineering student passionate about building real-world applications that solve problems. My focus is on <strong>Web Development</strong>, <strong>Artificial Intelligence</strong>, and <strong>Machine Learning</strong>.
+                    </p>
+                    <p>
+                        I enjoy turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you can find me exploring new tech, reading research papers, or contributing to open-source.
+                    </p>
+                    <p>
+                        Explore my work on <a href="https://github.com/Lavkush-patel9" target="_blank">GitHub</a> and connect with me on <a href="https://linkedin.com/in/lavkush-patel-089940288/" target="_blank">LinkedIn</a>.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section id="Skills">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML & CSS</h3>
+                        <p>Responsive, semantic, and accessible web design.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                        <p>Vanilla JS, DOM manipulation, ES6+.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Java & SQL</h3>
+                        <p>OOP, backend logic, database design.</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Data analysis, AI/ML, scripting.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section id="Projects">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-img" style="background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQEqDr2WmIDKrg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1690389776221?e=2147483647&v=beta&t=rmcw04M_gjDusRH6StfZZiLNDSnl1Wg0mNoTfg04DlE');"></div>
+                        <div class="project-content">
+                            <h3>Hand Gesture Recognition</h3>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">OpenCV</span>
+                                <span class="tag">ML</span>
+                            </div>
+                            <p>Computer vision system to control devices using hand gestures.</p>
+                            <div class="project-links">
+                                <a href="#">Live Demo</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background-image: url('https://codewithcurious.com/wp-content/uploads/2023/01/thumbnail-5-1024x576.png');"></div>
+                        <div class="project-content">
+                            <h3>Calculator App</h3>
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JS</span>
+                            </div>
+                            <p>A sleek, responsive calculator with a modern UI.</p>
+                            <div class="project-links">
+                                <a href="#">Live Demo</a>
+                                <a href="#">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-img" style="background-image: url('https://www.regenesys.net/reginsights/wp-content/uploads/2025/01/6-dec-How-to-Become-a-Data-Analyst-in-South-Africa.jpg');"></div>
+                        <div class="project-content">
+                            <h3>Sales Dashboard</h3>
+                            <div class="project-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">Pandas</span>
+                                <span class="tag">Matplotlib</span>
+                            </div>
+                            <p>Data visualization dashboard for Google sales data.</p>
+                            <div class="project-links">
+                                <a href="#">View Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="Contact">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Let's build something great together</h3>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <strong>Email</strong><br>
+                                lkush2425@gmail.com
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <strong>Location</strong><br>
+                                Jabalpur, India
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer>
+                <p>&copy; 2025 Lavkush Patel. Built with ❤️ using HTML, CSS & JS.</p>
+                <p>
+                    <a href="#Home">Home</a> •
+                    <a href="#About">About</a> •
+                    <a href="#Skills">Skills</a> •
+                    <a href="#Projects">Projects</a> •
+                    <a href="#Contact">Contact</a>
+                </p>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast" id="toast">Message sent successfully!</div>
+
+    <script>
+        // Theme Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const icon = themeToggle.querySelector('i');
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                icon.classList.replace('fa-moon', 'fa-sun');
+            } else {
+                icon.classList.replace('fa-sun', 'fa-moon');
+            }
+        });
+
+        // Active Nav Link
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.sidebar-nav a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                const sectionHeight = section.clientHeight;
+                if (pageYOffset >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Form Submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            
+            fetch('https://script.google.com/macros/s/AKfycbwnnVI8JU7J-0esD5PD9RW2Lwqdm2k1rIET-oBfLMv7UE2cDX86fCETDCTO97XweMkO/exec', {
+                method: 'POST',
+                body: formData
+            })
+            .then(() => {
+                showToast('Message sent successfully!');
+                this.reset();
+            })
+            .catch(() => {
+                showToast('Error: Could not send message.');
+            });
+        });
+
+        function showToast(message) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.classList.add('show');
+            setTimeout(() => toast.classList.remove('show'), 3000);
+        }
+    </script>
+</body>
+</html>
